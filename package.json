@@ -8,11 +8,17 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["csv", "chart", "express", "nodejs"],
+  "keywords": [
+    "csv",
+    "chart",
+    "express",
+    "nodejs"
+  ],
   "author": "Iliass",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0"
   },
   "engines": {

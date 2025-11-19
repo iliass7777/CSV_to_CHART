@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello from CSV_to_CHART backend!");
+  res.send("Hello teste deployeeeer");
 });
 
 const PORT = process.env.PORT || 3000;
