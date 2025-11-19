@@ -4,12 +4,12 @@ WORKDIR /usr/src/app
 
 # Install app dependencies
 # We copy package.json first to leverage Docker cache
-COPY back/package*.json ./
+COPY package*.json ./
 
 RUN npm install 
 
 # Copy application source
-COPY back/ .
+COPY . .
 
 EXPOSE 3000
 
